@@ -1,0 +1,218 @@
+:global(body) {
+    background-color: #212631;
+    background-repeat: no-repeat;
+    margin: 0;
+    color:rgb(94.2, 92.4, 207.6);;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .topRow{
+    display: flex;
+    align-items:stretch;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .Label {
+    padding: 5px;
+    background-color: #212631;
+    border: 5px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .logo img{
+    width: 36px;
+    height: 36px;
+  }
+
+  .Label h1{
+    font-size: 20px;
+  }
+  
+  .profileDropdown{
+    position: fixed;
+    right: 3%;
+    top:2%;
+    display:flex;
+    flex-direction: column;
+    align-items:end;
+  }
+
+  .profileButton{
+    background-color: #212631;
+    color:rgb(94.2, 92.4, 207.6) ;
+    border: 2px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+
+  }
+
+  .profileButton:hover{
+    background-color:rgb(94.2, 92.4, 207.6) ;
+    color: #212631;
+  }
+
+  .dropdownMenu {
+    margin-top: 5px;
+    background-color: #1a1e2b;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color:rgb(0, 255, 247) ;
+  }
+
+  .logoutButton{
+    background-color: #212631;
+    color:rgb(94.2, 92.4, 207.6) ;
+    border: 2px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .logoutButton:hover{
+    background-color:rgb(94.2, 92.4, 207.6) ;
+    color: #212631;
+  }
+  
+
+  .nav-home {
+    position: absolute;
+    top: 15%; /* 25% from the top of the container */
+    left: 50%; /* 50% from the left */
+    transform: translateX(-50%); /* Center the element horizontally */
+    display: flex;
+    gap: 10vw; /* Optional: adjust gap between list items */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-home a{
+    font-size: 20px;
+  }
+
+  .nav-home li a{
+    background-color: #212631;
+    color:rgb(94.2, 92.4, 207.6) ;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 25px;
+    padding: 8px 12px;
+  }
+
+  .nav-home li a:hover{
+    background-color:rgb(94.2, 92.4, 207.6) ;
+    color: #212631;
+  }
+
+  .navGroup {
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8vh;
+  }
+
+  .navbar-pictures img{
+    width: 15vw ;
+    height:15vw;
+  }
+
+  .navi-group-2 span {
+    color: white;
+    background-color: #e55353;
+    display: block;
+    width: 200%;
+    text-align: center;
+  }
+
+  .navbar-pictures {
+    width: 100vw;
+    display: flex;
+    justify-content: center;  
+    background-color: transparent; 
+  }
+
+  .navbar-pictures-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+  }
+
+  :global(.navbar-brand) {
+    background-color: #fff;  
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    text-align: center;
+    transition: 
+      background-color 0.3s ease, 
+      color 0.3s ease, 
+      font-size 0.3s ease;   
+    width: 15vw;
+    position: relative;         
+  }
+
+  :global(.navbar-brand img) {
+    max-width: 120%;
+    max-height: 120%;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* The text (span) by default */
+  :global(.navbar-brand span) {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    transition: font-size 0.3s ease, color 0.3s ease;
+  }
+
+  .navi-group-2 :global(.navbar-brand) :hover {
+    background-color: #e55353; 
+    border: 1px solid #e55353;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .navi-group-2 :global(.navbar-brand):hover span {
+    font-size: 1.3rem; 
+    color: #fff;  
+    border: 1px solid #e55353 ;    
+  }
+
+
+    

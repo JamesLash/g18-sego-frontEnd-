@@ -1,0 +1,68 @@
+:global(body) {
+  background-color: #212631;
+  background-repeat: no-repeat;
+  margin: 0;
+  color:rgb(94.2, 92.4, 207.6);;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: row;
+    gap: 30vw;
+    position: relative;
+    left: 15%;
+    width: 100%;
+    padding-bottom: 15vh;
+  }
+  
+  
+  .text_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .text_container h1 {
+    font-size: 80px;
+    margin-bottom: 2vh;
+  }
+  
+  .form_group {
+    margin-bottom: 15px;
+  }
+  
+  .form_group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: rgb(51, 153, 255);
+  }
+  
+  .form_group input {
+    width: 300px; /* Ensure uniform input width */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid rgb(94.2, 92.4, 207.6);
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #212631;
+    color:rgb(94.2, 92.4, 207.6) ;
+    border: 2px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    background-color:rgb(94.2, 92.4, 207.6) ;
+    color: #212631;
+  }
+  
