@@ -126,7 +126,7 @@
     color:rgb(94.2, 92.4, 207.6) ;
     border: 2px solid #ccc;
     border-radius: 4px;
-    font-size: 25px;
+    font-size: 20px;
     padding: 8px 12px;
   }
 
@@ -136,12 +136,12 @@
   }
 
   .navGroup {
-    padding-top: 15vh;
+    padding-top: 1vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 8vh;
+    gap: 3vh;
   }
 
   .navbar-pictures img{

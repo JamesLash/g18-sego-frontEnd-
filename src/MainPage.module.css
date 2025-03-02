@@ -126,8 +126,9 @@
     color:rgb(94.2, 92.4, 207.6) ;
     border: 2px solid #ccc;
     border-radius: 4px;
-    font-size: 25px;
+    font-size: 20px;
     padding: 8px 12px;
+    min-width: 150px;
   }
 
   .nav-home li a:hover{
