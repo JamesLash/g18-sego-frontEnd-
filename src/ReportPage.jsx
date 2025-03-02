@@ -23,7 +23,7 @@ function ReportPage() {
                 <div className={styles.Label}>
                     <div className={styles.logo}>
                     <img
-                        src="BrandEvolution-WhiteonNottinghamBlue-Cropped-450x173.jpeg"
+                        src="./image/BrandEvolution-WhiteonNottinghamBlue-Cropped-450x173.jpeg"
                         alt="school logo"
                     />
                     </div>
@@ -67,19 +67,19 @@ function ReportPage() {
                     <nav className={styles["navbar-pictures"]}>
                         <div className={styles["navbar-pictures-container"]}>
                             <a className="navbar-brand text-center" href="#">
-                                <img src="—Pngtree—vector plus icon_4232484.png" alt="picture 1"  className="d-block mx-auto"></img>
+                                <img src="./image/—Pngtree—vector plus icon_4232484.png" alt="picture 1"  className="d-block mx-auto"></img>
                             <span> Generate </span>
                             </a>
                             <a className="navbar-brand text-center" href="#">
-                                <img src="—Pngtree—writing black icon png_7966240.png" alt="picture 2"  className="d-block mx-auto"></img>
+                                <img src="./image/—Pngtree—writing black icon png_7966240.png" alt="picture 2"  className="d-block mx-auto"></img>
                                 <span> Modification </span>
                             </a>
                             <a className="navbar-brand text-center" href="#">
-                                <img src="tick.png" alt="picture 3"  className="d-block mx-auto"></img>
+                                <img src="./image/tick.png" alt="picture 3"  className="d-block mx-auto"></img>
                                 <span> Validation </span>
                             </a>
                             <a className="navbar-brand text-center" href="#">
-                                <img src="vecteezy_pdf-file-format-icon_46449092.png" alt="picture 4"  className="d-block mx-auto"></img>
+                                <img src="./image/vecteezy_pdf-file-format-icon_46449092.png" alt="picture 4"  className="d-block mx-auto"></img>
                                 <span> PDF </span>
                             </a>
                         </div>

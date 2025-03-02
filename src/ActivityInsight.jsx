@@ -24,7 +24,7 @@ function MainPage() {
             <div className={styles.Label}>
                 <div className={styles.logo}>
                 <img
-                    src="BrandEvolution-WhiteonNottinghamBlue-Cropped-450x173.jpeg"
+                    src="./image/BrandEvolution-WhiteonNottinghamBlue-Cropped-450x173.jpeg"
                     alt="school logo"
                 />
                 </div>
@@ -68,15 +68,15 @@ function MainPage() {
                 <nav className={styles["navbar-pictures"]}>
                     <div className={styles["navbar-pictures-container"]}>
                         <a className="navbar-brand text-center" href="#">
-                            <img src="scale.png" alt="picture 1"  className="d-block mx-auto"></img>
+                            <img src="./image/scale.png" alt="picture 1"  className="d-block mx-auto"></img>
                         <span> Weight</span>
                         </a>
                         <a className="navbar-brand text-center" href="#">
-                            <img src="history.png" alt="picture 2"  className="d-block mx-auto"></img>
+                            <img src="./image/history.png" alt="picture 2"  className="d-block mx-auto"></img>
                             <span> History</span>
                         </a>
                         <a className="navbar-brand text-center" href="#">
-                            <img src="bar-chart.png" alt="picture 3"  className="d-block mx-auto"></img>
+                            <img src="./image/bar-chart.png" alt="picture 3"  className="d-block mx-auto"></img>
                             <span> Analysis </span>
                         </a>    
                     </div>

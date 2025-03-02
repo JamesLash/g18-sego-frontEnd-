@@ -26,7 +26,7 @@ function LoginPage() {
       transition={{ duration: 0.5 }}>
       <div className={styles.logo}>
         <img
-          src="BrandEvolution-WhiteonNottinghamBlue-Cropped-450x173.png"
+          src="./image/BrandEvolution-WhiteonNottinghamBlue-Cropped-450x173.png"
           alt="school logo"
           width={450}
           height={173}
