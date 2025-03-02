@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import styles from "./App.module.css";
 import LoginPage from "./TheLoginPage.jsx"; 
-import MainPage from "./MainPgae.jsx";
+import MainPage from "./MainPage.jsx";
 import ReportPage from "./ReportPage.jsx";
 import ActivityInsight from "./ActivityInsight.jsx"
 import { AnimatePresence } from "framer-motion";
