@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./MainPage.module.css";
+import { motion } from "framer-motion";
 
 function MainPage() {
     const [isOpne , setIsOpen] = useState(false);
@@ -14,7 +15,11 @@ function MainPage() {
         navigate("/LoginPage");
     }
   return (
-    <div className={styles.container}>
+    <motion.div className={styles.container}
+        initial={{ scale: 0.7, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ scale: 0.7, opacity: 0 }}
+        transition={{ duration: 0.5 }}>
         <div className={styles.topRow}>
             <div className={styles.Label}>
                 <div className={styles.logo}>
@@ -64,19 +69,19 @@ function MainPage() {
                     <div className={styles["navbar-pictures-container"]}>
                         <a className="navbar-brand text-center" href="#">
                             <img src="—Pngtree—vector plus icon_4232484.png" alt="picture 1"  className="d-block mx-auto"></img>
-                        <span>Item 1</span>
+                        <span> Generate </span>
                         </a>
                         <a className="navbar-brand text-center" href="#">
                             <img src="—Pngtree—writing black icon png_7966240.png" alt="picture 2"  className="d-block mx-auto"></img>
-                            <span>Item 2</span>
+                            <span> Modification </span>
                         </a>
                         <a className="navbar-brand text-center" href="#">
                             <img src="tick.png" alt="picture 3"  className="d-block mx-auto"></img>
-                            <span>Item 3</span>
+                            <span> Validation </span>
                         </a>
                         <a className="navbar-brand text-center" href="#">
                             <img src="vecteezy_pdf-file-format-icon_46449092.png" alt="picture 4"  className="d-block mx-auto"></img>
-                            <span>Item 4</span>
+                            <span> PDF </span>
                         </a>
                     </div>
                 </nav>
@@ -86,21 +91,21 @@ function MainPage() {
                     <div className={styles["navbar-pictures-container"]}>
                         <a className="navbar-brand text-center" href="#">
                             <img src="scale.png" alt="picture 1"  className="d-block mx-auto"></img>
-                        <span>Item 1</span>
+                        <span> Weight</span>
                         </a>
                         <a className="navbar-brand text-center" href="#">
                             <img src="history.png" alt="picture 2"  className="d-block mx-auto"></img>
-                            <span>Item 2</span>
+                            <span> History </span>
                         </a>
                         <a className="navbar-brand text-center" href="#">
                             <img src="bar-chart.png" alt="picture 3"  className="d-block mx-auto"></img>
-                            <span>Item 3</span>
+                            <span> Analysis </span>
                         </a>    
                     </div>
                 </nav>
             </div>
         </div>
-    </div>
+    </motion.div>
   );
 }
 

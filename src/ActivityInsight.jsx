@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./MainPage.module.css";
+import { motion } from "framer-motion";
 
 function MainPage() {
     const [isOpne , setIsOpen] = useState(false);
@@ -14,7 +15,11 @@ function MainPage() {
         navigate("/LoginPage");
     }
   return (
-    <div className={styles.container}>
+    <motion.div className={styles.container}
+        initial={{ opacity: 0, x: -300 }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: 300 }}
+        transition={{ duration: 0.5 }}>
         <div className={styles.topRow}>
             <div className={styles.Label}>
                 <div className={styles.logo}>
@@ -64,21 +69,21 @@ function MainPage() {
                     <div className={styles["navbar-pictures-container"]}>
                         <a className="navbar-brand text-center" href="#">
                             <img src="scale.png" alt="picture 1"  className="d-block mx-auto"></img>
-                        <span>Item 1</span>
+                        <span> Weight</span>
                         </a>
                         <a className="navbar-brand text-center" href="#">
                             <img src="history.png" alt="picture 2"  className="d-block mx-auto"></img>
-                            <span>Item 2</span>
+                            <span> History</span>
                         </a>
                         <a className="navbar-brand text-center" href="#">
                             <img src="bar-chart.png" alt="picture 3"  className="d-block mx-auto"></img>
-                            <span>Item 3</span>
+                            <span> Analysis </span>
                         </a>    
                     </div>
                 </nav>
             </div>
         </div>
-    </div>
+    </motion.div>
   );
 }
 
