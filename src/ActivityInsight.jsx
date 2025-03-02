@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./MainPage.module.css";
+import styles from "./Activityinsight.module.css";
 import { motion } from "framer-motion";
 
 function MainPage() {
