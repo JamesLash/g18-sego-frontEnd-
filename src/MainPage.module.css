@@ -52,6 +52,7 @@
     display:flex;
     flex-direction: column;
     align-items:end;
+    z-index: 20;
   }
 
   .profileButton{
@@ -80,6 +81,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
   }
 
   .userInfo {
